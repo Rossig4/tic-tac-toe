@@ -11,3 +11,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.flex-container {
+    background-color: pink;
+    width: 312px;
+    height: 312px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mosaico {
+    margin: 2px;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
