@@ -11,34 +11,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.fondo {
+    background-color: rgba(34, 32, 32, 0.616);
+    height: 620px;
+    width: auto;
+}
+
 .flex-container {
-    background-color: pink;
     padding-left: 5px;
     width: 320px;
     height: 320px;
+    margin-top: 30px;
+    margin-left: 30%;
+    align-items: center;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .mosaico {
     margin: 2px;
-    background-color: gray;
+    background-color: #505050;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 15%;
+    box-shadow: 4px 4px 4px black;
 }
+
 h1 {
     font-weight: bold;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 2px black;
 }
 h2 {
     font-weight: bold;
     text-align: center;
-    color: white
+    color: white;   
 }
-.fondo {
-    background-color: rgba(34, 32, 32, 0.616);
-}
+
